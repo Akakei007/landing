@@ -1,0 +1,33 @@
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #8a8a8e;
+  background: linear-gradient(145deg, #e9eaec, #dcdde0);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  box-shadow: 6px 6px 14px var(--shadow-dark), -6px -6px 14px var(--shadow-light);
+  transition: box-shadow 0.2s ease, color 0.2s ease;
+}
+
+.btn:hover {
+  color: var(--ink);
+  box-shadow: inset 4px 4px 9px var(--shadow-dark), inset -4px -4px 9px var(--shadow-light);
+}
+
+.pill {
+  width: 154px;
+  height: 46px;
+  border-radius: 24px;
+  font-size: 13px;
+}
+
+.round {
+  width: 82px;
+  height: 82px;
+  border-radius: 50%;
+}
+
+.round svg {
+  width: 44px;
+  height: auto;
+}
